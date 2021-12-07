@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+html{
+    background-color:whitesmoke;
+}
+
+header{
+    text-align: center;
+    margin: 50px;
+    padding: 0;
+}
+
+#head {
+    font-size: 50px;
+    font-family: serif;
+    color:darkblue;
+}
+
+#result{
+    font-size: 30px;
+    font-family: cursive;
+    color: black;
+    text-align: center;
+
+}
+
+canvas{
+    display: block;
+    float: left;
+    border: 3px solid lightseagreen;
+    background: white;
+    text-align: center;
+}
+
+#game{
+    position: relative;
+    width: 320px; 
+    height: 320px;
+    margin: 0 auto 0 auto;
+}
+
+#tic{
+    position: relative;
+    width: 318px;
+    height: 318px;
+    margin: 0 auto;
+    display: inline-block;
+    float: left;
+}
+ 
+p{
+    font-size: 26px;
+    margin: 15px;
+    color: burlywood;
+}
+
+h2{
+    font-size: 35px;
+    color: burlywood;
+}
+
+button{
+    margin-top: 25px;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+    border: 1px solid black;
+    border-radius: 3px;
+    /* -moz --> prefix it ll run before the property value.
+       -moz-box-shadow:
+        chrome and safari browsers --> -webkit
+        Internet explorer --> -ms
+    */
+}
+
+canvas:hover{
+    background: lightblue;
+}
+
+button:hover{
+    background: grey;
+}
