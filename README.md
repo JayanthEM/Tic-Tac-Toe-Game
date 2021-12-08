@@ -6,3 +6,5 @@ ToDo List
 
 - [x] Minimax algorithm 
 - [ ] Monte Carlo Tree Search 
+
+Game - https://jem-tictactoe.netlify.app/
